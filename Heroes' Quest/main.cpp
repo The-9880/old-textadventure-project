@@ -35,7 +35,7 @@ int main()
 
 	//the game begins-----------------------
 	//this is the loop that takes all the players' actions. Needs to be called BETWEEN story events to take decisions
-	//Later, I'll modify it to allow the players to set off on different paths. In fact, I might make that ability pivotal to the Quest.
+	//Later, I'll modify it to allow the players to set off on different paths.
 	for (int turn = 0; turn < players.size(); ++turn)
 	{
 		Player* player = &players[turn];//the pointer to the active player.

@@ -16,7 +16,7 @@ protected:
 	std::vector<Object> inventory; //    The inventory vector for npc's, so that looting/trading can be implemented. Add items via monsters' constructors
 
 public:
-	NPC();	//	again, could make this virtual
+	NPC();
 	bool fightable;
 	int currentHP;
 	int getHP() { return currentHP; }

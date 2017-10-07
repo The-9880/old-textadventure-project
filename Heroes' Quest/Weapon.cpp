@@ -7,10 +7,6 @@ Weapon::Weapon()
 }
 
 
-Weapon::~Weapon()
-{
-}
-
 //Weapon constructor	--	Class needs to be reworked into an abstract one.
 Weapon::Weapon(std::string attackType)
 {

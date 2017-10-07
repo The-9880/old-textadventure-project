@@ -1,14 +1,5 @@
 #include "Object.h"
 
-Object::Object()
-{
-}
-
-
-Object::~Object()
-{
-}
-
 int Object::getDamage() const
 {
 	return damage;

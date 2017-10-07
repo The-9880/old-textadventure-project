@@ -15,8 +15,3 @@ Minotaur::Minotaur()    //  Setting by default what a minotaur has upon creation
 	AGI = 15;
 
 }
-
-
-Minotaur::~Minotaur()
-{
-}
